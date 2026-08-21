@@ -1,92 +1,88 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:2563eb,100:06b6d4&height=220&section=header&text=LuNu&fontSize=72&fontColor=ffffff&fontAlignY=38&desc=Building%20useful%20things%20with%20code&descAlignY=60&descSize=18" alt="LuNu profile banner" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:2563eb,100:06b6d4&height=220&section=header&text=LuNu&fontSize=72&fontColor=ffffff&fontAlignY=38&desc=Building%20interactive%20products%20with%20code&descAlignY=60&descSize=18" alt="LuNu profile banner" width="100%" />
 
-  <h1>Hi, mình là Trần Quang Lương</h1>
-  <p><strong>LuNu</strong> · Developer đến từ Việt Nam</p>
+  <h1>Hi, I'm Trần Quang Lương</h1>
+  <p><strong>LuNu</strong> · Developer from Vietnam</p>
   <p>
     <a href="https://github.com/LuongNuong131"><img src="https://img.shields.io/badge/GitHub-LuongNuong131-181717?style=for-the-badge&logo=github" alt="GitHub profile" /></a>
-    <a href="https://github.com/LuongNuong131?tab=repositories"><img src="https://img.shields.io/badge/Repositories-49-2563eb?style=for-the-badge&logo=github" alt="Repositories" /></a>
+    <a href="https://github.com/LuongNuong131?tab=repositories"><img src="https://img.shields.io/badge/Projects-50%2B-2563eb?style=for-the-badge&logo=github" alt="Projects" /></a>
     <img src="https://komarev.com/ghpvc/?username=LuongNuong131&style=for-the-badge&color=06b6d4&label=PROFILE+VIEWS" alt="Profile views" />
   </p>
 </div>
 
-## Về mình
+## About me
 
-Mình là **LuNu**, một developer thích biến ý tưởng thành những sản phẩm web và ứng dụng có thể sử dụng được trong thực tế. Mình đặc biệt hứng thú với việc xây dựng giao diện, phát triển sản phẩm bằng Vue, kết nối frontend với backend và thử nghiệm những công cụ nhỏ giúp công việc trở nên đơn giản hơn.
+I'm **LuNu**, a developer who enjoys turning ideas into interactive web products. I like working across the frontend, backend, and data layers: designing interfaces, modeling real-world systems, connecting APIs, and continuously refining the details that make a product feel complete.
 
-Hiện tại, GitHub của mình là nơi lưu lại quá trình học hỏi, xây dựng và hoàn thiện các dự án cá nhân — từ website nhỏ, công cụ tiện ích đến hệ thống nội bộ, nền tảng âm nhạc và ứng dụng nhắn tin.
+My GitHub is a record of that journey. It includes small experiments, practical tools, internal systems, creative websites, and larger products that combine multiple technologies into one experience.
 
-> **Mục tiêu:** viết code tốt hơn mỗi ngày, xây dựng sản phẩm có ích và không ngừng học những điều mới.
+> **My focus:** build useful things, learn through real projects, and keep getting better at the craft of software development.
 
-## Mình đang tập trung vào
+## Flagship project: EchoMMO
 
-| Hướng phát triển | Mình đang làm gì |
+<a href="https://github.com/LuongNuong131/EchoMMO"><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,17,20&height=120&section=header&text=EchoMMO&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=55" alt="EchoMMO" width="100%" /></a>
+
+**EchoMMO** is the project I am most proud of and the work that best represents how I like to build software. It is an MMO-inspired web game ecosystem that brings together a Vue frontend, a Java Spring Boot backend, a relational database, authentication, game systems, social features, and real-time communication.
+
+Rather than being only a UI prototype, EchoMMO is organized as a connected set of repositories that cover the product from interface to persistence:
+
+| Layer | Repository | What it contains |
+|---|---|---|
+| **Application shell** | [EchoMMO](https://github.com/LuongNuong131/EchoMMO) | The original Vue-based application and early product experience. |
+| **Frontend** | [EchoMMO-Frontend](https://github.com/LuongNuong131/EchoMMO-Frontend) | Vue 3 interface, Pinia stores, Vue Router, Axios API client, localization, and game views. |
+| **Backend** | [EchoMMO-Backend](https://github.com/LuongNuong131/EchoMMO-Backend) | Java 17 and Spring Boot services, REST controllers, JPA repositories, JWT security, validation, email, and WebSocket configuration. |
+| **Database** | [EchoMMO-DB](https://github.com/LuongNuong131/EchoMMO-DB) | MySQL schema plus core and lore seed data for the game world. |
+
+### What EchoMMO explores
+
+| Product system | Implemented direction |
 |---|---|
-| **Frontend** | Xây dựng giao diện web hiện đại, trực quan và dễ sử dụng với Vue, HTML, CSS và JavaScript. |
-| **Full-stack** | Kết nối giao diện với backend, dữ liệu và các luồng nghiệp vụ thực tế. |
-| **Product building** | Phát triển các dự án như nền tảng âm nhạc, messenger, CRM nội bộ và các công cụ hỗ trợ. |
-| **Continuous learning** | Thử nghiệm công nghệ mới, refactor dự án cũ và biến ý tưởng thành sản phẩm hoàn chỉnh hơn. |
+| **Identity and access** | Registration, login, profile management, roles, account security, JWT-based authentication, and account recovery flows. |
+| **Game loop** | Characters, enemies, combat, PvP, exploration, gathering, equipment, skills, quests, rewards, and progression. |
+| **Economy** | Inventory, item generation, wallet data, shop systems, gift codes, and a player marketplace with listings. |
+| **Social layer** | Friends, private messages, chat, notifications, announcements, reports, and leaderboards. |
+| **Operations** | Admin views, moderation flows, data-dump utilities, captcha handling, and shared game configuration. |
 
-## Tech stack
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=vue,html,css,js,python,java,mysql,git,github,vscode&perline=10" alt="Tech stack: Vue, HTML, CSS, JavaScript, Python, Java, MySQL, Git, GitHub and VS Code" />
-</div>
-
-<br />
+### EchoMMO stack
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Vue-42.5%25-41B883?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue" />
-  <img src="https://img.shields.io/badge/HTML-37.5%25-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML" />
-  <img src="https://img.shields.io/badge/Java-10%25-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Python-5%25-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/CSS%20%7C%20JS-7.5%25-1572B6?style=flat-square&logo=javascript&logoColor=white" alt="CSS and JavaScript" />
+  <img src="https://skillicons.dev/icons?i=vue,typescript,javascript,java,spring,mysql,git,github,vscode&perline=9" alt="EchoMMO technology stack" />
 </div>
-
-## Featured projects
-
-<table>
-  <tr>
-    <td width="50%">
-      <h3><a href="https://github.com/LuongNuong131/LuNu_Music">LuNu Music</a></h3>
-      <p>Nền tảng âm nhạc được xây dựng bằng Vue, tập trung vào trải nghiệm nghe và khám phá nội dung.</p>
-      <img src="https://img.shields.io/badge/Vue-41B883?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue" />
-    </td>
-    <td width="50%">
-      <h3><a href="https://github.com/LuongNuong131/LuNu-Messenger">LuNu Messenger</a></h3>
-      <p>Dự án messenger hướng tới trải nghiệm giao tiếp trực tuyến đơn giản, rõ ràng và dễ mở rộng.</p>
-      <img src="https://img.shields.io/badge/Vue-41B883?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3><a href="https://github.com/LuongNuong131/LuNu_Tool_VN">LuNu Tool VN</a></h3>
-      <p>Bộ công cụ tiện ích viết bằng Python, phục vụ việc thử nghiệm và tự động hóa các tác vụ nhỏ.</p>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-    </td>
-    <td width="50%">
-      <h3><a href="https://github.com/LuongNuong131/CRM_NoiBo">CRM Nội Bộ</a></h3>
-      <p>Dự án giao diện quản lý nội bộ, tập trung vào cách tổ chức dữ liệu và luồng nghiệp vụ.</p>
-      <img src="https://img.shields.io/badge/Vue-41B883?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3><a href="https://github.com/LuongNuong131/Thanh-Luan-Mobile-Frontend">Thanh Luan Mobile</a></h3>
-      <p>Phần frontend cho dự án mobile, đi cùng hệ thống backend Java riêng.</p>
-      <img src="https://img.shields.io/badge/Vue-41B883?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue" />
-      <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
-    </td>
-    <td width="50%">
-      <h3><a href="https://github.com/LuongNuong131/HomNayAnGi">Hôm Nay Ăn Gì?</a></h3>
-      <p>Một dự án web nhỏ mang tính ứng dụng, được xây dựng để giải quyết một vấn đề rất đời thường.</p>
-      <img src="https://img.shields.io/badge/Vue-41B883?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue" />
-    </td>
-  </tr>
-</table>
 
 <p align="center">
-  <a href="https://github.com/LuongNuong131?tab=repositories"><strong>Xem toàn bộ repository →</strong></a>
+  <img src="https://img.shields.io/badge/Vue%203-41B883?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue 3" />
+  <img src="https://img.shields.io/badge/Pinia-F7D336?style=flat-square&logo=vue.js&logoColor=111827" alt="Pinia" />
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
+  <img src="https://img.shields.io/badge/WebSocket-111827?style=flat-square&logo=socketdotio&logoColor=white" alt="WebSocket" />
+  <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
+</p>
+
+> **Why it matters to me:** EchoMMO is where interface design, domain modeling, authentication, persistence, game mechanics, and community features meet in one product. It is the clearest snapshot of the direction I want to keep growing toward.
+
+## Selected work
+
+These are the other projects I would highlight when presenting my portfolio. They show different sides of how I build: product interfaces, real-time experiences, internal tools, mobile-oriented systems, and utility software.
+
+| Project | Why it stands out | Main technologies |
+|---|---|---|
+| [LuNu Music](https://github.com/LuongNuong131/LuNu_Music) · [Update](https://github.com/LuongNuong131/LuNu_Music_Update) | A product-focused music experience with an active line of iteration and improvement. | Vue |
+| [LuNu Messenger](https://github.com/LuongNuong131/LuNu-Messenger) | A focused messaging project exploring communication flows and a clean application interface. | Vue |
+| [CRM Nội Bộ](https://github.com/LuongNuong131/CRM_NoiBo) | An internal-management project centered on data organization and practical business workflows. | Vue |
+| [Thanh Luan Mobile](https://github.com/LuongNuong131/Thanh-Luan-Mobile-Frontend) | A mobile-oriented frontend paired with a dedicated [Java backend](https://github.com/LuongNuong131/Thanh-Luan-Mobile-Backend). | Vue · Java |
+| [LuNu Tool VN](https://github.com/LuongNuong131/LuNu_Tool_VN) | A Python utility project for experimentation and practical automation. | Python |
+| [FCDBB](https://github.com/LuongNuong131/FCDBB) · [LuNu_FCDBB](https://github.com/LuongNuong131/LuNu_FCDBB) | A continuing Vue-based product line that reflects iterative development across related repositories. | Vue |
+
+## What I work with
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=vue,html,css,javascript,typescript,python,java,spring,mysql,git,github,vscode&perline=12" alt="Technologies I work with" />
+</div>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Frontend-Vue%20%7C%20HTML%20%7C%20CSS%20%7C%20JavaScript-41B883?style=flat-square&logo=vuedotjs&logoColor=white" alt="Frontend technologies" />
+  <img src="https://img.shields.io/badge/Backend-Java%20%7C%20Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Backend technologies" />
+  <img src="https://img.shields.io/badge/Tools-Python%20%7C%20Git%20%7C%20MySQL-3776AB?style=flat-square&logo=python&logoColor=white" alt="Tools" />
 </p>
 
 ## GitHub activity
@@ -100,14 +96,14 @@ Hiện tại, GitHub của mình là nơi lưu lại quá trình học hỏi, x�
   <img src="https://streak-stats.demolab.com?user=LuongNuong131&theme=tokyonight&hide_border=true" alt="LuNu's GitHub streak" />
 </div>
 
-## Một chút ngoài code
+## Beyond the code
 
-Mình thích những dự án có không gian để sáng tạo, những sản phẩm giải quyết được nhu cầu thật và cảm giác nhìn thấy một ý tưởng dần trở thành thứ có thể sử dụng. Mỗi repository ở đây là một dấu mốc nhỏ trong hành trình đó.
+I enjoy projects that leave room for creativity but still solve a real problem. Whether it is a game world, a music interface, a messenger, an internal tool, or a small utility, I care about the feeling that an idea has become something people can actually interact with.
 
 <div align="center">
-  <p><strong>Cảm ơn bạn đã ghé qua profile của mình.</strong></p>
-  <p>Nếu bạn thấy một dự án thú vị, đừng ngại ghé xem, để lại một star hoặc kết nối với mình.</p>
-  <a href="https://github.com/LuongNuong131?tab=repositories"><img src="https://img.shields.io/badge/Explore%20my%20work-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="Explore my work" /></a>
+  <p><strong>Thanks for visiting my profile.</strong></p>
+  <p>If one of these projects catches your attention, feel free to explore the code and connect with me.</p>
+  <a href="https://github.com/LuongNuong131?tab=repositories"><img src="https://img.shields.io/badge/Explore%20all%20projects-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="Explore all projects" /></a>
 </div>
 
 <br />
