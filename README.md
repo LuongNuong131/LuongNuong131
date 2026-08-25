@@ -122,7 +122,7 @@ I prefer projects with enough depth to reveal the relationship between product d
 
 <div align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=LuongNuong131&theme=tokyonight" height="175" alt="LuNu's GitHub statistics" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=LuongNuong131&theme=tokyonight&hide_border=true" height="175" alt="LuNu's GitHub contribution streak" />
+  <a href="https://github.com/denvercoder1/github-readme-streak-stats"><img src="./profile/streak.svg" height="175" alt="LuNu's GitHub contribution streak" /></a>
 </div>
 
 ## Currently building
@@ -152,4 +152,5 @@ That is the kind of work I want to keep doing — useful enough to matter, thoug
 <!--
   Profile README for github.com/LuongNuong131
   Designed as a compact portfolio: clear identity, selected work and a visible engineering philosophy.
+  Contribution streak is generated into profile/streak.svg by GitHub Actions.
 -->
