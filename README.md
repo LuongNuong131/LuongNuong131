@@ -117,12 +117,12 @@ I prefer projects with enough depth to reveal the relationship between product d
 ## GitHub activity
 
 <div align="center">
-  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=LuongNuong131&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true" height="175" alt="LuNu's GitHub statistics" />
-  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=LuongNuong131&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="175" alt="LuNu's most used languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=LuongNuong131&theme=tokyonight" width="100%" alt="LuNu's GitHub profile details" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=LuongNuong131&theme=tokyonight&hide_border=true" alt="LuNu's GitHub contribution streak" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=LuongNuong131&theme=tokyonight" height="175" alt="LuNu's GitHub statistics" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=LuongNuong131&theme=tokyonight&hide_border=true" height="175" alt="LuNu's GitHub contribution streak" />
 </div>
 
 ## Currently building
